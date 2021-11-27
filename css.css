@@ -167,31 +167,37 @@ button:hover {
     right: -24.5rem;
 }
 
-footer {
-    background-color: black;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    align-items: flex-start;
-}
-
 #logo2 {
-    margin-left: 5rem;
-    margin-top: 5rem;
     color: white;
+    margin-left: 5rem;
     font-size: 3rem;
 }
 
-.logocontainer {
-    align-items: flex-start;
+footer {
+    background-color: rgb(1, 4, 41);
+    border-radius: 0rem 5rem 0rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    justify-items: center;
 }
 
-.textcontainer {
-    display: flex;
-    justify-content: space-evenly;
+.footerlinks-links1 {
+    font-size: 3rem;
+    text-decoration: none;
 }
 
-.footertext {
-    align-items: flex-start;
+.first-link {
+    margin-bottom: 4rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
 }
 
-.footerlinks-links {}
+.secondary {
+    margin-bottom: 0.75rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+}
